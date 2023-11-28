@@ -1,4 +1,4 @@
-# STRINGS
+print(" STRINGS ".center(45, "="))
 
 first = "Dave"
 second = "Gray"
@@ -51,3 +51,36 @@ print(first[0:])
 first.startswith("D")
 first.endswith("D")
 
+
+print("")
+print(" NUMERIC DATA TYPES ".center(45, "="))
+
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+gpa = 3.28
+y = float(1.14)
+print(type(gpa))
+print(isinstance(gpa, int))
+
+# Complex type integers
+comp_value = 5 + 3j
+print(type(comp_value))
+print(comp_value.real)
+print(type(comp_value.real))
+print(comp_value.imag)
+print(type(comp_value.imag))
+
+# Built-In Number Methods
+print(round(gpa))
+print(round(gpa, 1))
+
+import math
+
+print(math.pi)
+
+zipcode = "10001"
+zip_value = int(zipcode)
+print(type(zip_value))
