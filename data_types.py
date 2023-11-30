@@ -7,11 +7,11 @@ print(isinstance(first, str))  # returns True
 print(type(first) == str)  # returns True
 
 # Multi-line strings - uses triple quotes to create a multi-line string
-multiline = """
+multiline = '''
 Hey, how are you?
 I'm just checking in with you.
                                          I'm doing well. How are you?
-"""
+'''
 print(multiline)
 
 
@@ -84,3 +84,9 @@ print(math.pi)
 zipcode = "10001"
 zip_value = int(zipcode)
 print(type(zip_value))
+
+
+
+
+
+
